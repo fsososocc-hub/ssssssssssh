@@ -1,0 +1,6 @@
+{
+  "name": "Shopify Merchant Admin",
+  "description": "An elegant Shopify-mimicking Merchant Admin dashboard supporting real-time responsive PWA layouts (Desktop 3-column & Mobile Bottom tab bar), rich store manager dashboards, and a smart Sidekick AI Store Assistant.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

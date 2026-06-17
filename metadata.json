@@ -1,0 +1,6 @@
+{
+  "name": "Shopify Merchant Admin",
+  "description": "An elegant Shopify-mimicking Merchant Admin dashboard supporting Markets (国际市场出海定价 & B2B 阶梯起订批发价目表), real-time responsive layouts (Desktop 3-column & Mobile), and a smart Sidekick AI Store Assistant.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

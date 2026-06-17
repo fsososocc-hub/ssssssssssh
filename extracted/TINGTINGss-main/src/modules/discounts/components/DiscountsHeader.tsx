@@ -1,0 +1,28 @@
+import React from 'react';
+import { Plus } from 'lucide-react';
+
+interface DiscountsHeaderProps {
+  onAddClick: () => void;
+}
+
+export default function DiscountsHeader({ onAddClick }: DiscountsHeaderProps) {
+  return (
+    <div className="flex items-center justify-between border-b border-black/5 pb-3">
+      <div>
+        <span className="text-[10px] font-sans tracking-widest text-[#888] font-bold">
+          卡券管理
+        </span>
+        <h2 className="text-sm font-bold tracking-tight text-[#111] font-sans">
+          折扣计划
+        </h2>
+      </div>
+      <button
+        onClick={onAddClick}
+        className="bg-neutral-900 hover:bg-black text-white hover:shadow-sm text-xs px-3 py-1.5 rounded-lg font-bold flex items-center space-x-1 transition-all"
+      >
+        <Plus className="w-3 h-3" />
+        <span>新建</span>
+      </button>
+    </div>
+  );
+}
